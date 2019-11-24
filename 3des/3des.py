@@ -139,7 +139,3 @@ if __name__ == '__main__':
     a = tripleDesEncrypt(key, text)
     print(a)
     print(tripleDesDecrypt(key, a))
-    # r = d.encrypt(key, text, True) #поставить false если не нужен padding
-    # r2 = d.decrypt(key, r, True)
-    # print("Ciphered: %r" % r)
-    # print("Deciphered: ", r2)
